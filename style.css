@@ -1,0 +1,271 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: capitalize;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    transition: all linear .4s;
+    
+}
+
+body{
+
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo img{
+    width: 100px;
+}
+.nav ul{
+    display: flex;
+    align-items: center;
+}
+.nav ul li{
+    
+}
+#quem{
+    color: #fff;
+    background-color: #020202;
+    border-radius: 15px;
+}
+#quem:hover{
+    background-color: #fff;
+    color: #020202;
+    border: 1px solid #000;
+}
+.nav ul li a{
+    color: #000;
+    margin-right: 25px;
+    padding: 3px 10px;
+    font-weight: 500;
+    border-radius: 15px;
+    font-size: 1.2rem;
+}
+.nav ul li a:hover{
+    color: #fff;
+    background-color: #000;
+    
+    transition: .5s;
+}
+.social{
+    margin-left: 30px;
+    top: 30px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+   
+}
+#whats{
+    width: 35px;
+    
+}
+#insta{
+    width: 35px;
+   
+}
+#face{
+    width: 35px;
+
+}
+#whats:hover{
+    transform: translateX(15px);
+    transition: .4s;
+}
+#insta:hover{
+    transform: translateX(15px);
+    transition: .4s;
+}
+#face:hover{
+    transform: translateX(15px);
+    transition: .4s;
+}
+.container_main{
+    width: 100%;  
+    margin: 60px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.main{
+     display: flex;
+    flex-direction: column;
+    width: max-content;
+    margin-bottom: 50px;
+   
+}
+.main img{
+   width: 600px;
+   animation: backwards;
+  
+
+}
+.main h1{
+    text-align: center;
+}
+.main p{
+    width: 450px;
+    text-align: justify;
+    margin: 5px ;
+}
+
+.main a{
+    color: #fff;
+    background-color: #000;
+    padding: 5px;
+    border-radius: 15px;
+    width: 150px;
+    text-align: center;
+    margin: 0 auto;
+}
+.main a:hover{
+    color: #000;
+    background-color: #fff;
+    border:1px solid #000;
+    
+    transition: .5s;
+}
+.container_card{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 30px auto;
+   
+}
+.cards{
+    width: 80%;
+    display: flex;
+    margin-bottom: 10px;
+    background-color: #020202;
+    border-radius: 5px;
+    
+}
+.cards img{
+    width: 250px;
+    height: 250px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-right: 30px;
+    border-right: 5px solid #fff;
+   
+}
+
+#cards_reverse{
+   
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    
+}
+#cards_reverse img{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-right: none;
+    border-left: 5px solid #fff;
+    margin-right: -2px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 20px;
+    width: 90%;
+    height: 150px;
+
+}
+.card p{
+    text-align: justify;
+    color: #ffffff94;
+}
+.card h3{
+    color: #fff;
+    margin-bottom: 10px;
+}
+.footer{
+    
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    background-color: #020202;   
+}
+.nav_footer{  
+    padding: 20px;
+}
+.nav_footer li{
+    padding: 5px 20px;
+}
+.nav_footer a{
+    padding: 3px;
+    color: #fff;
+}
+.nav_footer a:hover{
+    color: #f6921d;
+    border-radius: 5px;
+    
+    
+}
+.span{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: #020202;
+    color: #fff;
+}
+
+.container_section{
+    width: 90%;
+    padding: 10px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container_section h2{
+    font-size: 2.5rem;
+   
+    font-weight: 600;
+   
+    color: #fff;
+    
+    text-align: center;
+
+}
+.icon{
+    border-radius: 10px;
+    width: 91%;
+    margin-bottom: 20px;
+    background-color: #020202;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon span{
+    font-size: 50px;
+    margin-right: 10px;
+    color: red;
+}
+
+iframe{
+    margin-bottom: 30px;
+    padding: 10px;
+  width: 600px;
+  height: 500px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 2px #00000066;
+  
+  
+  
+  
+}
